@@ -192,72 +192,102 @@ const slides = [
        class="object-cover absolute inset-0 w-full h-full"
        alt="Hotel background" />
 
-  <div class="relative flex flex-col w-full ml-5 max-w-[1467px] max-md:max-w-full">
+  <div class="relative flex flex-col w-full max-w-[1467px] mx-auto px-4">
     <!-- HotelHeader -->
     <header class="flex flex-wrap gap-10 self-center ml-3.5 w-full font-extrabold text-white max-w-[1338px] max-md:max-w-full">
-      <h1 class="grow my-auto text-5xl leading-none max-md:max-w-full max-md:text-4xl">
+      <h1 class="grow my-auto text-5xl mt-2 leading-none ml-12 max-md:max-w-full max-md:text-4xl">
         REKOMENDASI HOTEL
       </h1>
-      <div class="shrink-0 border-white border-solid border-[3px] h-[148px] w-[3px]"></div>
-      <p class="grow shrink self-start mt-5 text-3xl leading-10 w-[648px] max-md:max-w-full">
+      <div class="shrink-0 border-white border-solid border-[3px] h-[148px] w-[3px] -translate-y-10"></div>
+      <p class="grow shrink self-start mt-0 text-3xl leading-10 w-[648px] max-md:max-w-full">
         Menginap Nyaman Dekat Pelabuhan? Ini Rekomendasinya!
       </p>
     </header>
 
-    <!-- HotelCardA -->
-<article class="pl-0 mt-9 bg-white bg-opacity-80 rounded-[30px] max-md:pl-5 max-md:max-w-full">
-  <div class="flex gap-5 max-md:flex-col">
-    <div class="w-[39%] max-md:ml-4 max-md:w-full">
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/7f2c218b2a8d387009b903c89ffe3e5a32548077?placeholderIfAbsent=true&apiKey=e7b6bda3872b4833acaacdbea3b766ee"
-        class="object-contain grow w-full aspect-[1.73] rounded-[30px] max-md:mt-2.5 max-md:max-w-full"
-        alt="Hotel A"
-      />
-    </div>
-    <div class="w-[61%] max-md:ml-0 max-md:w-full">
-      <div class="flex flex-col self-stretch my-auto w-full text-black max-md:mt-10 max-md:max-w-full">
-        <div class="flex flex-col max-w-full w-[465px] max-md:mr-2.5">
-          <h2 class="text-5xl font-extrabold leading-none max-md:text-4xl">Hotel A</h2>
-          <h3 class="mt-16 text-4xl font-medium leading-none text-center max-md:mt-10">Deskripsi</h3>
-        </div>
-        <div class="flex flex-wrap gap-5 justify-between mt-20 text-4xl font-medium leading-none text-center max-md:mt-10 max-md:max-w-full">
-          <div>IDR 500.000+</div>
-          <div>2,3 km</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</article>
-
-    <!-- HotelCardB -->
-    <article class="pl-11 mt-9 bg-white bg-opacity-80 rounded-[30px] max-md:pl-5 max-md:max-w-full">
-      <div class="flex gap-5 max-md:flex-col">
-        <div class="w-[61%] max-md:ml-0 max-md:w-full">
-          <div class="flex flex-col self-stretch my-auto w-full text-black max-md:mt-10 max-md:max-w-full">
-            <div class="flex flex-col self-end max-w-full w-[465px] max-md:mr-2.5">
-              <h2 class="self-end text-5xl font-extrabold leading-none max-md:text-4xl">Hotel B</h2>
-              <h3 class="self-start mt-16 text-4xl font-medium leading-none text-center max-md:mt-10">Deskripsi</h3>
+         <!-- Hotel A Card -->
+        <article class="pr-5 mt-12 bg-white bg-opacity-80 rounded-[30px] max-md:mt-10 max-md:max-w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <!-- Image -->
+            <div class="w-[38%] max-md:ml-0 max-md:w-full">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/7f2c218b2a8d387009b903c89ffe3e5a32548077?placeholderIfAbsent=true&apiKey=dd3e672cb82b4c0a86418d65534cfeeb"
+                class="object-contain grow w-full aspect-[1.73] rounded-[30px] max-md:mt-1.5 max-md:max-w-full"
+                alt="Hotel A"
+              />
             </div>
-            <div class="flex flex-wrap gap-5 justify-between mt-20 text-4xl font-medium leading-none text-center max-md:mt-10 max-md:max-w-full">
-              <div>IDR 500.000+</div>
-              <div>2,3 km</div>
+            <!-- Content -->
+            <div class="ml-5 w-[62%] max-md:ml-0 max-md:w-full">
+              <div class="mt-7 w-full text-black max-md:mt-8 max-md:max-w-full">
+                <div class="flex flex-col px-5 max-md:px-5 max-md:max-w-full">
+                  <h2 class="self-start text-5xl font-extrabold leading-none max-md:text-4xl">
+                    Hotel A
+                  </h2>
+                  <p class="mt-5 text-3xl font-medium leading-8 text-center max-md:max-w-full">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam provident delectus ab repudiandae aliquam ducimus, quod facilis iure dolorum fugiat. Voluptate labore esse a molestias. Adipisci nesciunt nihil rerum voluptatem!
+                  </p>
+                </div>
+                <div class="flex flex-wrap gap-5 justify-between mt-5 w-full text-4xl font-medium leading-none text-center max-md:max-w-full">
+                  <div class="flex">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/946ca48b78cac48a51ea922216103f524805d307?placeholderIfAbsent=true&apiKey=dd3e672cb82b4c0a86418d65534cfeeb"
+                      class="object-contain shrink-0 aspect-square w-[43px]"
+                      alt="Distance icon"
+                    />
+                    <div class="my-auto">2,3 km</div>
+                  </div>
+                  <div class="self-start mt-3">IDR 500.000+</div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="ml-5 w-[39%] max-md:ml-0 max-md:w-full">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d26274e2cc5fa4ca9d3a7b4b6f4affd2005d61e9?placeholderIfAbsent=true&apiKey=e7b6bda3872b4833acaacdbea3b766ee"
-               class="object-contain grow w-full aspect-[1.73] rounded-[30px] max-md:mt-2.5 max-md:max-w-full"
-               alt="Hotel B" />
-        </div>
-      </div>
-    </article>
+        </article>
 
-    <!-- Footer -->
-    <footer class="px-16 py-3.5 mt-11 mr-3 text-3xl font-bold leading-none text-center text-white bg-stone-600 max-md:px-5 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    </footer>
-  </div>
-</div>
+        <!-- Hotel B Card -->
+        <article class="pr-1.5 pl-5 mt-6 bg-white bg-opacity-80 rounded-[30px] max-md:pl-5 max-md:mr-2.5 max-md:max-w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <!-- Content -->
+            <div class="w-[61%] max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col mt-10 w-full text-black max-md:mt-8 max-md:max-w-full">
+                <div class="flex flex-col max-md:px-5 max-md:max-w-full">
+                  <h2 class="self-end text-5xl font-extrabold leading-none max-md:mr-2.5 max-md:text-4xl">
+                    Hotel B
+                  </h2>
+                  <p class="mt-3.5 mr-5 ml-4 text-3xl font-medium leading-8 text-center max-md:mr-2.5 max-md:max-w-full">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam provident delectus ab repudiandae aliquam ducimus, quod facilis iure dolorum fugiat. Voluptate labore esse a molestias. Adipisci nesciunt nihil rerum voluptatem!
+                  </p>
+                </div>
+                <div class="flex flex-wrap gap-5 justify-between mt-3 w-full text-4xl font-medium leading-none text-center max-md:max-w-full">
+                  <div class="my-auto">IDR 500.000+</div>
+                  <div class="flex gap-1">
+                    <img
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/0019871ea3b45981689636343edbd5b51158ee87?placeholderIfAbsent=true&apiKey=dd3e672cb82b4c0a86418d65534cfeeb"
+                      class="object-contain shrink-0 aspect-square w-[43px]"
+                      alt="Distance icon"
+                    />
+                    <div class="my-auto">2,3 km</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Image -->
+            <div class="ml-5 w-[39%] max-md:ml-0 max-md:w-full">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/d26274e2cc5fa4ca9d3a7b4b6f4affd2005d61e9?placeholderIfAbsent=true&apiKey=dd3e672cb82b4c0a86418d65534cfeeb"
+                class="object-contain grow w-full aspect-[1.73] rounded-[30px] max-md:mt-3 max-md:max-w-full"
+                alt="Hotel B"
+              />
+            </div>
+          </div>
+        </article>
+
+        <!-- Footer -->
+        <footer class="bg-[#6A5D3B] w-full max-w-[1449px] px-4 py-4 mt-12 text-white text-center text-[30px] font-bold leading-none">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>
 `
 ];
 
