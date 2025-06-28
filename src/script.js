@@ -1,17 +1,17 @@
 const slides = [
   // Slide 1: Jadwal Keberangkatan Kapal
-  `<div class="h-full w-full bg-white px-32 py-10 max-md:px-5">
-  <header class="w-full max-w-[1800px]">
-    <div class="flex gap-9 max-md:flex-col">
-      <div class="w-[20%] max-md:w-full">
+  `<div class="h-full w-full bg-white px-8 py-10 max-md:px-5">
+  <header class="w-full">
+    <div class="grid grid-cols-12">
+      <div class="col-span-3">
         <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d93bc274202e0f7f5aa8273bb0a4d59258631069?placeholderIfAbsent=true&apiKey=e7b6bda3872b4833acaacdbea3b766ee" alt="Port Logo" class="aspect-[2] w-[266px] object-contain" />
       </div>
-      <div class="flex w-full flex-col items-center justify-center text-center">
+      <div class="col-span-6 items-center justify-center text-center">
         <h1 class="mt-2 text-5xl leading-none font-extrabold text-black max-md:mt-50 max-md:text-6xl">INFORMASI KEBERANGKATAN KAPAL</h1>
         <h2 class="z-10 mt-6 self-center text-5xl leading-none font-bold max-md:text-4xl">PELABUHAN XXXXX</h2>
       </div>
 
-      <div class="py-2 ml-1 w-2/5 max-md:ml-0 max-md:w-full">
+      <div class="py-2 ml-1 col-span-3">
         <div class="mt-5 flex w-full flex-col items-end pr-8 text-right text-3xl leading-none text-black max-md:mt-10">
           <div class="font-bold">SELASA, 6 MEI 2025</div>
           <div class="flex gap-6">
@@ -26,8 +26,8 @@ const slides = [
     </div>
   </header>
 
-  <section class="mt-7 flex w-[1800px] max-w-full flex-col max-md:mt-6">
-    <header class="z-10 mt-10 flex w-full max-w-[1680px] gap-60 self-center bg-sky-500 px-10 py-8 text-4xl font-bold text-white shadow-[0px_15px_15px_rgba(0,0,0,0.25)] max-md:max-w-full max-md:px-5">
+  <section class="mt-7 flex flex-col max-md:mt-6">
+    <header class="z-10 mt-10 flex w-full gap-60 self-center bg-sky-500 px-10 py-8 text-4xl font-bold text-white shadow-[0px_15px_15px_rgba(0,0,0,0.25)] max-md:max-w-full max-md:px-5">
       <div class="w-[250px] shrink grow text-center">NAMA KAPAL</div>
       <div class="w-[358px] shrink grow text-center">PELABUHAN TUJUAN</div>
       <div class="w-[386px] shrink grow text-center max-md:max-w-full">WAKTU BERANGKAT</div>
@@ -205,8 +205,8 @@ const slides = [
     </header>
 
          <!-- Hotel A Card -->
-        <article class="pr-5 mt-12 bg-white bg-opacity-80 rounded-[30px] max-md:mt-10 max-md:max-w-full">
-          <div class="flex gap-5 max-md:flex-col">
+        <article class="pr-5 mt-12 bg-white bg-opacity-85 rounded-[30px] max-md:mt-10 max-md:max-w-full">
+          <div class="flex gap-5 max-md:flex-col place-items-center p-4">
             <!-- Image -->
             <div class="w-[38%] max-md:ml-0 max-md:w-full">
               <img
@@ -217,16 +217,16 @@ const slides = [
             </div>
             <!-- Content -->
             <div class="ml-5 w-[62%] max-md:ml-0 max-md:w-full">
-              <div class="mt-7 w-full text-black max-md:mt-8 max-md:max-w-full">
+              <div class="w-full text-black max-md:max-w-full">
                 <div class="flex flex-col px-5 max-md:px-5 max-md:max-w-full">
                   <h2 class="self-start text-5xl font-extrabold leading-none max-md:text-4xl">
                     Hotel A
                   </h2>
-                  <p class="mt-5 text-3xl font-medium leading-8 text-center max-md:max-w-full">
+                  <p class="mt-5 text-3xl font-medium leading-8 max-md:max-w-full">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam provident delectus ab repudiandae aliquam ducimus, quod facilis iure dolorum fugiat. Voluptate labore esse a molestias. Adipisci nesciunt nihil rerum voluptatem!
                   </p>
                 </div>
-                <div class="flex flex-wrap gap-5 justify-between mt-5 w-full text-4xl font-medium leading-none text-center max-md:max-w-full">
+                <div class="flex flex-wrap gap-5 justify-between mt-5 w-full text-4xl font-medium leading-none max-md:max-w-full">
                   <div class="flex">
                     <img
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/946ca48b78cac48a51ea922216103f524805d307?placeholderIfAbsent=true&apiKey=dd3e672cb82b4c0a86418d65534cfeeb"
@@ -243,20 +243,20 @@ const slides = [
         </article>
 
         <!-- Hotel B Card -->
-        <article class="pr-1.5 pl-5 mt-6 bg-white bg-opacity-80 rounded-[30px] max-md:pl-5 max-md:mr-2.5 max-md:max-w-full">
-          <div class="flex gap-5 max-md:flex-col">
+        <article class="pr-1.5 pl-5 mt-6 bg-white bg-opacity-85 rounded-[30px] max-md:pl-5 max-md:mr-2.5 max-md:max-w-full">
+          <div class="flex gap-5 max-md:flex-col place-items-center p-4">
             <!-- Content -->
             <div class="w-[61%] max-md:ml-0 max-md:w-full">
-              <div class="flex flex-col mt-10 w-full text-black max-md:mt-8 max-md:max-w-full">
+              <div class="w-full text-black max-md:max-w-full">
                 <div class="flex flex-col max-md:px-5 max-md:max-w-full">
-                  <h2 class="self-end text-5xl font-extrabold leading-none max-md:mr-2.5 max-md:text-4xl">
+                  <h2 class="self-start text-5xl font-extrabold leading-none max-md:mr-2.5 max-md:text-4xl">
                     Hotel B
                   </h2>
-                  <p class="mt-3.5 mr-5 ml-4 text-3xl font-medium leading-8 text-center max-md:mr-2.5 max-md:max-w-full">
+                  <p class="mt-3.5 mr-5 text-3xl font-medium leading-8 max-md:mr-2.5 max-md:max-w-full">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam provident delectus ab repudiandae aliquam ducimus, quod facilis iure dolorum fugiat. Voluptate labore esse a molestias. Adipisci nesciunt nihil rerum voluptatem!
                   </p>
                 </div>
-                <div class="flex flex-wrap gap-5 justify-between mt-3 w-full text-4xl font-medium leading-none text-center max-md:max-w-full">
+                <div class="flex flex-wrap gap-5 justify-between mt-3 w-full text-4xl font-medium leading-none max-md:max-w-full">
                   <div class="my-auto">IDR 500.000+</div>
                   <div class="flex gap-1">
                     <img
